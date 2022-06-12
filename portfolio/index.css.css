@@ -1,0 +1,25 @@
+.picdiv{
+    background-image: url("https://images.pexels.com/photos/11908837/pexels-photo-11908837.jpeg?auto=compress&cs=tinysrgb&fit=crop&fp-y=0.2&h=500&sharp=10&w=2000");
+    height: 450px;
+    width: 100%;
+    margin-top: 50px;
+}
+.header{
+    font-weight: bold;
+}
+@media screen and (max-width : 600px) {
+    .cards{
+        margin-bottom: 10px;
+    }
+    .testimonials{
+        padding-left: 50px;
+    }
+    .header{
+        display: none;
+    }
+    .bttn{
+        margin-top: 5px;
+        width: 200px;
+        
+    }
+}
